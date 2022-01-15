@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#mainTitle{
+    color: aliceblue;
+    font-size: 8rem;
+}
+#bcitw{
+    color: red;
+    font-size: 1.5rem;
+    margin-left: 20rem;
+}
+
+.blog{
+    width: 60%;
+    padding-bottom: 120px;
+}
+.chartContainersmall{
+    width: 70%;
+}
+#firstChart, #secondChart, #thirdChart, #fourthChart{
+    margin: 60px 40px;
+}
+#number1{
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* type effect */
+.typing-demo1 {
+    width: 14ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: left;
+}
+.typing-demo2 {
+    width: 25ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: left;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+    100%{
+        border: none;
+    }
+}

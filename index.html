@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immigrants</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <h1 id="mainTitle">Canada </h1>
+        <span id="bcitw">best country in the world?</span>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="blog">
+            <div class="typing-demo1">
+                <h4>What data says?</h4>
+            </div>
+                <canvas id="firstChart" width="2px" height="1px"></canvas>
+
+            <div class="typing-demo2">
+                <h4>What is Quality of life index?</h4>
+            </div>
+            <p style="color: aliceblue; font-size: 1.3rem; margin: 30px; line-height: 2rem;">
+                <span style="margin-left: 4rem;">The</span> Physical Quality of Life Index (PQLI) is the measure of the quality of life or
+                well-being of a country. The value is the average of three statistics: introductory
+                literacy rate, infant mortality, and life expectancy at age one. 
+            </p>
+            <div>
+                <div>
+                    <canvas id="secondChart" width="2px" height="1px"></canvas>
+                </div>
+
+                <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+                    <img src="./src/number1.png" alt="number1" id="number1"/>
+                    <p style="color: rgb(236, 201, 2); font-size: 1.5rem; margin-top: -30px; margin-bottom: 80px;">Quality of Life Index</p>
+                </div>
+            </div>
+            <div>
+                <h3 style="color: aliceblue; font-size: 2rem; margin: 40px 0px;">Number of Immigrants to the best country in the world is ...</h3>
+                <div>
+                    <canvas id="thirdChart" width="3px" height="1px"></canvas>
+                </div>
+
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+            <div class="chartContainersmall">
+                    <h1 style="color: aliceblue; text-align: center;">in 2021</h1>
+                    <canvas id="fourthChart" width="1px" height="1px"></canvas>
+                </div>
+            </div>
+        </div>   
+    </div>
+<script src="./index.js"></script>
+
+</body>
+</html>
